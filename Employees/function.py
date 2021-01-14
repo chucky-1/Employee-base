@@ -7,7 +7,7 @@ import psycopg2
 flag = 0
 
 if flag:
-    conn = psycopg2.connect(dbname='staff', user='postgres', password='220095sql', port=5433)
+    conn = psycopg2.connect(dbname='staff', user='postgres', password='password', port=5433)
     cur = conn.cursor()
 else: import function_input
 
