@@ -19,7 +19,7 @@ import psycopg2
 import math
 
 if flag:
-    conn = psycopg2.connect(dbname='staff', user='postgres', password='220095sql', port=5433)
+    conn = psycopg2.connect(dbname='staff', user='postgres', password='password', port=5433)
     cur = conn.cursor()
 
 # id для добавления отделов, должностей и сотрудников. Следующие значения для модуля function_input.
